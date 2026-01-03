@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$CLAUDE_PLUGIN_ROOT/hooks/scripts/sql-hooks.sh\"",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/sql-hooks.sh\"",
             "timeout": 120
           }
         ]
